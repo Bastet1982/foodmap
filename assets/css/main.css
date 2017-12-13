@@ -1,23 +1,92 @@
 *{
 	font-family: 'Raleway', sans-serif;
-	margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	background:  #e75903 ;
 }
 
 #splash {
-	background-image: url(https://image.freepik.com/foto-gratis/ingredientes-italianos-apetitosos-frescos-sabrosos-de-la-comida-en-fondo-oscuro-listo-para-cocinar-inicio-italiano-comida-saludable-concepto-de-cocina-viraje_1220-1820.jpg);
-    width: 100%
-    height: 100%;
-    display: flex;      /* utilizo display, justify-content y align items para colocar el texto en el centro de la imagen*/
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-    color: #fff;
-    z-index: 1;  /* el texto se localiza antes de la imagen*/
-    
+	background-image: url(https://image.freepik.com/vector-gratis/vector-ilustracion-de-dibujos-animados-de-varias-verduras-sobre-un-fondo-de-madera_1441-519.jpg);
+	background-repeat: no-repeat;
+    height: 200%;
+    width: auto;
+    padding: 100px;
+    color: #FFF;    
 }
+
+#container {
+	text-align: center;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h1 span {
+	color: red;
+}
+
+h1 img {
+	max-width: 200px;
+}
+
+.content {
+	margin-top: 60px;
+}
+
+.search {
+	max-width: 300px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.search input {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #cecece;
+	border-radius: 3px;
+	margin-left: 40px;
+}
+
+.search i {
+	position: absolute;
+	cursor: pointer;
+	right: -12px;
+	top: 9px;
+}
+
+ul {
+	padding: 0px;
+	margin-top: 40px;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	border: 1px solid #cecece;
+	padding: 10px;
+	margin: 10px;
+	width: 347px;
+
+}
+
+	
+.img-responsive{
+	height: 200px;
+	width: 250px;
+	display: inline-block;
+}
+
+iframe{
+	position: relative;
+	margin-left: 530px; 
+}
+
+#title{
+	text-align: center;
+	color: #FFF;
+}
+
+br{
+	border: 2px solid #FFF;
+	width: 50%;
+
+};
