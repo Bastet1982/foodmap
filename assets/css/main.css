@@ -1,92 +1,68 @@
 *{
-	font-family: 'Raleway', sans-serif;
-	background:  #e75903 ;
+	font-family: 'Raleway', sans-serif;	
 }
 
-#splash {
-	background-image: url(https://image.freepik.com/vector-gratis/vector-ilustracion-de-dibujos-animados-de-varias-verduras-sobre-un-fondo-de-madera_1441-519.jpg);
+#splash{
+	background-image: url(https://st.depositphotos.com/2576363/4639/i/950/depositphotos_46392373-stock-photo-italian-food-background.jpg);
 	background-repeat: no-repeat;
-    height: 200%;
-    width: auto;
-    padding: 100px;
-    color: #FFF;    
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    color: #cd0d36;
+    text-align: center-block;   
 }
 
-#container {
-	text-align: center;
-	max-width: 1170px;
-	margin: 0 auto;
+#title{   
+	background-color:  #cd0d36 ;
 }
 
-h1 span {
-	color: red;
-}
-
-h1 img {
-	max-width: 200px;
-}
-
-.content {
-	margin-top: 60px;
-}
-
-.search {
-	max-width: 300px;
-	margin: 0 auto;
-	position: relative;
-
-}
-
-.search input {
-	width: 300px;
-	padding: 10px;
-	border: 1px solid #cecece;
-	border-radius: 3px;
-	margin-left: 40px;
-}
-
-.search i {
-	position: absolute;
-	cursor: pointer;
-	right: -12px;
-	top: 9px;
-}
-
-ul {
-	padding: 0px;
-	margin-top: 40px;
-}
-
-ul li {
-	list-style-type: none;
-	display: inline-block;
-	float: left;
-	border: 1px solid #cecece;
-	padding: 10px;
-	margin: 10px;
-	width: 347px;
-
-}
-
-	
-.img-responsive{
-	height: 200px;
-	width: 250px;
-	display: inline-block;
+hr{
+	border: 10px solid #FFF;
+	width: 50%;
 }
 
 iframe{
 	position: relative;
-	margin-left: 530px; 
+	width: 50%;
+	margin-left: 350px;
+	padding: 30px;
+
 }
 
-#title{
+#container  h2{
 	text-align: center;
+	margin-left: 20px;
+	font-weight: 200;
+	color: #cd0d36 ;;
+	width: 50%;
+	margin-left: 350px;
+
+}
+
+#title h1{
+	text-align: center;
+	color: #FFF;
+	font-size: 40spx;
+	font-weight: 200;
+}
+
+.center-block{
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+	height: 200px;
+	width: 250px;
+}
+
+#myInput{
+	background-color: #cd0d36 ;
+	width: 40%;
+	margin-left: 420px;
 	color: #FFF;
 }
 
-br{
-	border: 2px solid #FFF;
-	width: 50%;
-
-};
+#myList{
+	
+	padding: 7px;
+	
+}

@@ -4,181 +4,162 @@
 	<meta name = "viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Foodmap</title>
-	<link rel="stylesheet" type="text/css" href="assets/splash.html">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0./css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+	<!-- SPLASH -->
+	
+	<!-- FIN SPLASH -->
+
 	<header id="title">
 		<div class="row">
-			<div class=".col-xs-12 .col-md-12">
+			<div class=".col-xs-12">
 				<h1>Foodmap</h1>
+				<hr>
 			</div>
 		</div>
 	</header>
-	<hr>
-	<section class="map">
-		<div class="row">
-			<div  class=".col-xs-10 .col-xs-offset-2 .col-md-10 .col-md-offset-2">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13317.497835301556!2d-70.65449722033051!3d-33.43954942168221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+o+cafeter%C3%ADas!5e0!3m2!1ses-419!2scl!4v1513113539518" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<section>
+		<div id="map">
+			<div class="row">
+				<div  class=".col-xs-10 .col-md-10">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d13317.497835301556!2d-70.65449722033051!3d-33.43954942168221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+o+cafeter%C3%ADas!5e0!3m2!1ses-419!2scl!4v1513113539518" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>	
 	</section>
-	<div id="container">
-		<div class="row">
-			<div class=".col-xs-10 .col-xs-offset-2 .col-md-10 .col-md-offset-2">
-				<div class="content">
-					<div class="search">
-						<input type="text" id="busqueda" placeholder="Tipo de comida...">
-						<i class="fa fa-search"></i>
+	<section>
+		<div id="container">
+			<div class="row">
+				<div class=".col-xs-12 .col-md-12">
+					<h2>Elige tu estilo de comida</h2>
+					<input class="form-control" id="myInput" type="text" placeholder="Buscar..">
+  					<br>
+				</div>
+			</div>	
+		</div>	
+	</section>
+	<section>
+		<div class="container" id="myList">
+			<div class="firstGroup">
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/chilena.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/china2.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/indian3.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/chilena1.jpg" class="center-block" alt="Responsive image">
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/chilena3.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/china.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/indian4.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/vegetarian.jpg" class="center-block" alt="Responsive image">
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/chilena2.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/china1.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/indian.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/italian.jpg" class="center-block" alt="Responsive image">
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/chilena4.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/china3.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/indian2.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/vegetarian3.jpg" class="center-block" alt="Responsive image">
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/italian2.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/vegetarian1.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/indian1.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/vegetarian2.jpg" class="center-block" alt="Responsive image">
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/china4.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/italian3.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/japanese.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/vegetarian4.jpg" class="center-block" alt="Responsive image">
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/italian1.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/japanese1.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/italian4.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/japanese2.jpg" class="center-block" alt="Responsive image">
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<img src="images/japanese3.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/japanese4.jpg" class="center-block" alt="Responsive image">
+					</div>
+					<div class="col-xs-3 col-md-3">
+						<img src="images/vegetarian.jpg" class="center-block" alt="Responsive image">
+					</div>	
+					<div class="col-xs-3 col-md-3">
+						<img src="images/chilena2.jpg" class="center-block" alt="Responsive image">
 					</div>
 				</div>	
 			</div>
-		</div>
-	</div>	
+		</div>		
 	</section>
-	<div id="container">
-		<div class="row">
-			<div class=".col-xs-12 .col-xs-offset-1 .col-md-12">
-				<div class="search">
- 					<nav>
-						<ul>
-
-							<li>
-								<h3>Chilena</h3>
-								<img src="images/chilena.jpg" class="img-responsive" alt="Responsive image">
- 							</li>
- 							<li>
-								<h3>Vegetariana</h3>
-								<img src="images/vegetarian1.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>Italiana</h3>
-								<img src="images/italian1.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>Hindú</h3>
-								<img src="images/indian1.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Vegetariana</h3>
-								<img src="images/vegetarian2.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>China</h3>
-								<img src="images/china3.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>China</h3>
-								<img src="images/china.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Vegetariana</h3>
-								<img src="images/vegetarian3.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Italiana</h3>
-								<img src="images/italian2.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Chilena</h3>
-								<img src="images/chilena1.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Hindú</h3>
-								<img src="images/indian.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Italiana</h3>
-								<img src="images/italian3.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>China</h3>
-								<img src="images/china4.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Chilena</h3>
-								<img src="images/chilena2.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Vegetariana</h3>
-								<img src="images/vegetarian4.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Hindú</h3>
-								<img src="images/indian2.jpg" class="img-responsive" alt="Responsive image"> 
-							</li>
-							<li>
-								<h3>Japonesa</h3>
-								<img src="images/japanese1.jpg" class="img-responsive" alt="Responsive image"> 
-							</li>
-							<li>
-								<h3>Italiana</h3>
-								<img src="images/italian.jpg" class="img-responsive" alt="Responsive image"> 
-							</li>
-							<li>
-								<h3>Chilena</h3>
-								<img src="images/chilena3.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Hindú</h3>
-								<img src="images/indian3.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Japonesa</h3>
-								<img src="images/japanese.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Chilena</h3>
-								<img src="images/chilena4.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Hindú</h3>
-								<img src="images/indian4.jpg" class="img-responsive" alt="Responsive image">
- 							</li>
- 							<li>
-								<h3>Japonesa</h3>
-								<img src="images/japanese2.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>China</h3>
-								<img src="images/china.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>China</h3>
-								<img src="images/china1.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
- 								<h3>Vegetariana</h3>
-								<img src="images/vegetarian.jpg" class="img-responsive" alt="Responsive image">
- 							</li>
- 							<li>
-								<h3>Japonesa</h3>
-								<img src="images/japanese4.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>Italiana</h3>
-								<img src="images/italian4.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-							<li>
-								<h3>Japonesa</h3>
-								<img src="images/japanese3.jpg" class="img-responsive" alt="Responsive image">
-							</li>
- 							<li>
-								<h3>China</h3>
-								<img src="images/china2.jpg" class="img-responsive" alt="Responsive image">
-							</li>
-						</ul>		
- 					</nav>
- 				</div>
-			</div>
-		</div>
-	</div>	
-	</section>
-
-
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
